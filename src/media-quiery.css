@@ -1,0 +1,35 @@
+@media screen and (max-width: 640px) {
+  .sidebar {
+    display: none;
+  }
+  .main {
+    margin-left: 0;
+  }
+  .menu-toggle {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    background: var(--whiteColor);
+    color: var(--primarycolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 3;
+  }
+
+  .sidebar.active {
+    display: block;
+    z-index: 10;
+  }
+
+  .header-logo .close-sidebar {
+    display: block;
+  }
+
+  .header-logo .close-sidebar.active {
+    display: none;
+  }
+}
