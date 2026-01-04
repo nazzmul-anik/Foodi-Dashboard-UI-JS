@@ -91,10 +91,6 @@ const updateCartCountAndTotal = () => {
   const cartTotal = document.getElementById("cart-total");
   const cartItems = document.querySelectorAll("#cart-items tbody tr");
 
-  console.log(cartCount);
-  console.log(cartTotal);
-  console.log(cartItems);
-
   let totalCount = 0;
   let total = 0;
 
