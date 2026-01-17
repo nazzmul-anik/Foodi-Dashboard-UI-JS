@@ -1,6 +1,6 @@
 # 🍔 Foodi Dashboard UI
 
-🔗 **Live Demo:** https://everafter-wedding-ui-react-js.vercel.app/
+🔗 **Live Demo:** https://foodi-dashboard-ui-js.vercel.app/
 
 ## 📌 Project Overview
 **Foodi Dashboard UI** is a responsive, UI-based food ordering dashboard built using **HTML, CSS, and Vanilla JavaScript**.  
